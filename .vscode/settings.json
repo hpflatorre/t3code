@@ -1,4 +1,12 @@
 {
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    ".repos/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/coverage/**": true
+  },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.codeActionsOnSave": {
@@ -9,9 +17,6 @@
   "typescript.native-preview.tsdk": "node_modules/@typescript/native-preview",
   "typescript.preferences.autoImportFileExcludePatterns": [".repos/**"],
   "javascript.preferences.autoImportFileExcludePatterns": [".repos/**"],
-  "files.watcherExclude": {
-    ".repos/**": true
-  },
   "search.exclude": {
     ".repos/**": true
   }
